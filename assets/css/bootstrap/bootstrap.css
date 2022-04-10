@@ -1,0 +1,61 @@
+
+/* .jumbotron{
+  margin-bottom: 0px;
+opacity: 0.2;
+color: #fff;
+background: #000 url("https://bootstrapcreative.com/wp-bc/wp-content/uploads/2017/03/learning-story.png") top center no-repeat;
+width: 100%;
+height: 100%;
+background-size: cover;
+} */
+
+.flex{
+  display: flex;
+
+}
+.glow:hover{
+  transform:scale(1.1);
+  z-index: 3;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 12px;
+}
+.glow{
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 12px;
+  transition: 0.8s;
+}
+.music-linkcolor{
+  text-decoration: none;
+}
+.round-corner{
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+hr{
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  height: 2px;
+  background-color: #333;
+}
+a {
+  text-decoration: none;
+}
+.play-border{
+  
+  border-radius: 15px;
+  margin-left: 0;
+  padding:0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.play-border img{
+  border-radius: 15px;
+}
+.play-heading{
+  font-weight: 700;
+  text-align: center;
+  font-size:4.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin:2rem 0 2rem 0;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+
